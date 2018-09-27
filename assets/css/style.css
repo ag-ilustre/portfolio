@@ -89,6 +89,7 @@ p,a,li,blockquote, #full-name {
 
 /*MY SKILLS*/
 
+
 #row-skills {
 	color: #fff;
 	width: 100%;
@@ -102,6 +103,13 @@ p,a,li,blockquote, #full-name {
 /*.fadeInLeft {
 	animation-delay: 1s;
 }*/
+#first-portfolio {
+	color: #8e4585;
+}
+
+#first-portfolio:hover {
+	color: #8e4585;
+}
 
 .contact-details, .footer-font{
 	font-family: "Lato", sans-serif !important;
