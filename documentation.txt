@@ -1,0 +1,58 @@
+1. Text: 
+main color:
+	color: #00cc99; 
+			rgb(0,188,156)
+	/*Caribbean green*/
+secondary color:
+	color: #e7e9ee;
+	/*Light grayish blue*/
+
+2. Background
+body: 
+	background-color: #30334c;
+	/*Very dark desaturated blue*/
+
+3. Progress-bar
+	color: #4AB8EE;
+	848ca5
+
+4. Fontawesome
+//logo only
+	<i class="fab fa-linkedin-in"></i>
+	<i class="fab fa-github-alt"></i>
+	<i class="fab fa-twitter"></i>
+//inside a square
+	<i class="fab fa-linkedin"></i>
+	<i class="fab fa-github-square"></i>
+	<i class="fab fa-twitter-square"></i>
+
+background: hsla(234, 23%, 24%, 1);
+
+
+===================================
+HTML:
+
+<div class="image-container">
+    <img src="http://lorempixel.com/500/300" />
+    <div class="after">This is some content</div>
+</div>
+
+CSS:
+
+.image-container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+}
+.image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color:  #00cc99;
+    display: block;
+    background: rgba(48, 51, 76, 0.95)
+}
+
