@@ -2,47 +2,39 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Cairo', sans-serif;
-	
-	/*background-color: #30334c;*/
+
+	background-color: #30334c;
 	/*color: #e7e9ee;*/
 	color: #848ca5;
 	font-weight: 200;
 	letter-spacing: 0.06em;
 	line-height: 32px;
 	font-weight: 200;
-	
-	
 }
 
-p, a#portfolio-link {
-	font-weight: 200;
-	letter-spacing: 0.06em;
-	line-height: 32px;
-	font-size: 16px;
-}
-
+/*================================ NAVBAR and HOME ================================*/
 /*underline loading*/
-ul { 
-	padding: 0; 
-	list-style: none; 
+ul {
+	padding: 0;
+	list-style: none;
 	display: table;
 	width: 600px;
 	text-align: center;
-	margin: 0; 
+	margin: 0;
 }
-li { 
-	display: table-cell; 
-	position: relative; 
+li {
+	display: table-cell;
+	position: relative;
 	padding: 16px 8px;
-	margin: 0; 
+	margin: 0;
 
 }
 
 a.nav-link, a {
 	color: #848ca5;
 	/*border-bottom: 1px #848ca5 solid;*/
-	padding: 0; 
-	margin: 0; 
+	padding: 0;
+	margin: 0;
 	text-decoration: none;
 	/*letter-spacing: 0.15em;*/
 
@@ -51,9 +43,9 @@ a.nav-link, a {
 	position: relative;
 }
 
-a.nav-link:after, a:after {    
+a.nav-link:after, a:after {
 	color: #00cc99 !important;
-	padding: 0; 
+	padding: 0;
 	text-decoration: none;
 	background: none repeat scroll 0 0 transparent;
 	bottom: 0;
@@ -67,18 +59,18 @@ a.nav-link:after, a:after {
 	width: 0;
 }
 
-a.nav-link:hover, a:hover {    
+a.nav-link:hover, a:hover {
 	color: #00cc99 !important;
-	padding: 0; 
+	padding: 0;
 	text-decoration: none;
 }
 
-a.nav-link:hover:after, a:hover:after { 
+a.nav-link:hover:after, a:hover:after {
 	color: #00cc99 !important;
-	padding: 0; 
+	padding: 0;
 	text-decoration: none;
-  	width: 100%; 
-  	left: 0; 
+  	width: 100%;
+  	left: 0;
 }
 
 #navbarSupportedContent {
@@ -87,8 +79,38 @@ a.nav-link:hover:after, a:hover:after {
 
 /*end of underline loading*/
 
+/*section: home*/
+#home {
+	background-color: #30334c;
+}
+
+#introduction {
+	background-color: #30334c;
+	text-align: justify;
+}
+
+p, a#portfolio-link {
+	font-weight: 200;
+	letter-spacing: 0.06em;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+#profilepic {
+	/*width: 264px;
+	height: 308px;*/
+	height: 160px;
+	vertical-align: middle;
+	padding: 2px;
+	border: 1px solid #30334c;
+	box-sizing: content-box;
+	border-radius: 2px;
+	background-color: #848ca5;
+}
+
+
 .cgreen {
-	color: #00cc99; 
+	color: #00cc99;
 	/*Caribbean green*/
 }
 
@@ -108,12 +130,12 @@ body, body>nav {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  color: #00cc99; 
+  color: #00cc99;
 	/*Caribbean green*/
   font-weight: 700;
 }
 p,a,li,blockquote, #full-name {
-  
+
   font-weight: 300;
 }
 
@@ -139,10 +161,10 @@ p,a,li,blockquote, #full-name {
 }
 
 
-#profilepic {
-	height: 90vh;
+/*#profilepic {
+	
 	padding: 0;
-}
+}*/
 
 #skills, .skills-columns {
 	background-color: rgba(48, 51, 76, 0.95);
@@ -155,11 +177,11 @@ p,a,li,blockquote, #full-name {
 
 
 .section-title {
-	
+
 }
 
 #dev-bg {
-	
+
 }
 
 .space-before-jumbotron {
@@ -204,10 +226,7 @@ p,a,li,blockquote, #full-name {
     background-image: linear-gradient(to right, rgba(128, 128, 128, 0), rgba(128, 128, 128, 0.75), rgba(128, 128, 128, 0));
 }
 
-#introduction {
-	text-align: justify;
-	
-}
+
 
 .intro-text {
 
@@ -252,11 +271,11 @@ p,a,li,blockquote, #full-name {
 	border: 2px gray !important;
 	width: 400px;
 	height: 200px;
-	
+
 }
 */
 .card-body.projects {
-	
+
 }
 
 .portfolio-2-pic {
@@ -284,7 +303,7 @@ p,a,li,blockquote, #full-name {
 }
 
 .footer-font {
-	
+
 	font-size: 0.8em;
 }
 
