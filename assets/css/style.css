@@ -227,6 +227,9 @@ a.connect>i.fab:hover, a.connect>i.fab:hover:after {
 	}
 
 
-	
+	.skillset {
+		border: 1px solid #e7e9ee;
+		padding: 0;
+	}
 
 }
