@@ -33,149 +33,76 @@
 	</script>
 
 	<!-- favicon -->
-    <!-- <link rel="icon" type="image/png" href="assets/images/favicon.png"> -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
 </head>
 <body>
-	<!-- navbar -->
-	<nav class="navbar navbar-expand-lg sticky-top">
-	  <a class="navbar-brand" href="#">
-	  		<!-- <img src="assets/images/favicon.png" id="logo"> -->
-	  </a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
+<!-- navbar -->
+		<nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+		  <a class="navbar-brand" href="#">
+		  		<!-- <img src="assets/images/logo.png" id="logo"> -->
+		  </a>
+		  <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
 
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mx-auto">
-	      <li class="nav-item">
-	        <a class="nav-link p-0" href="#home">Home</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link p-0" href="#skills">Skills</a>
-	      </li>
-	       <li class="nav-item">
-	        <a class="nav-link p-0" href="#portfolio">Portfolio</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link p-0" href="#contact">Contact</a>
-	      </li>
-	    </ul>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+		      <li class="nav-item">
+		        <a class="nav-link p-0 text-center" href="#home">Home</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link p-0" href="info.html#skills">Skills</a>
+		      </li>
+		       <li class="nav-item">
+		        <a class="nav-link p-0" href="info.html#portfolio">Portfolio</a>
+		      </li>
+		    </ul>
 
-	  </div>
-	</nav> <!-- end of navbar -->
+		  </div>
+		</nav>
+		<!-- end of navbar -->
 
-	<div class="container-fluid" >
-		<!-- HOME -->
+<div class="image-container" id="home">
+	<div class="row w-100">
+	<img src="assets/images/profilepic.png" alt="profile picture" id="profilephoto">
+	</div>
+	<div class="after">
 
-		<div class="row mt-3" id="home">
-			<div class="col-lg-2 col-md-2"></div>
-			<div class="col-lg-2 col-md-2 col-sm-12 text-right p-0 my-2">
-				<img src="assets/images/profilepicA.png" class="text-right p-0 m-0" id="profilepic">
-			</div>
-			
-			<div class="col-lg-6 col-md-6 col-md-12 p-0 my-3">
-				<h1 class="display-4 text-center p-0 m-0" id="full-name">ANNE GERLY ILUSTRE</h1>
-				<h2 class="display-5 text-center p-0 m-0" id="full-stack">Full-Stack Web Developer</h2>
-			</div>
-			<div class="col-lg-2 col-md-2"></div>
-		</div>
 		
-		<div class="row" id="introduction">
-			<div class="col-lg-2"></div>
-			<div class="col-lg-8">
-				<hr id="hr-below-name">
-				<div class="pb-3">
-					<p>Anne Gerly Ilustre is a Full-Stack Web Developer from Manila. She is a Tuitt Coding Bootcamp graduate.</p>
-					<p>She holds a Bachelor of Science in Chemical Engineering from the University of the Philippines Los Baños. She is a licensed engineer, a real estate broker and appraiser.</p>
-					<p>She's a lifelong learner who loves researching and discovering new things in technology and psychology. When she's not coding, she can be found reading a good book, browsing Medium, watching cooking shows, or studying on Duolingo.</p>
 
-					<p>View her <a href="#portfolio" id="portfolio-link">portfolio</a>.</p>
-					
-					<p class="text-leftp"><i class="far fa-envelope"></i> <a>ag.ilustre@gmail.com</a></p>
-					<p class="text-left"><i class="far fa-file-alt"></i> <a>curriculum vitae</a></p>
-				
+		<div class="container-fluid" >
+								
+			<div class="row">
+				<div class="col-lg-2 col-md-2"></div>
+				<div class="col-lg-8 col-md-8 my-3">
+					<div class="animated fadeInUp fast mt-5 pt-5">
+						<h2 class="text-center p-1 m-1" id="fullname">ANNE GERLY ILUSTRE</h2>
+						<h3 class="text-center p-1 m-1" id="fullstack">Full-Stack Web Developer</h3>
+						<div class="col-4 mx-auto text-center">
+							<a href="#" class="connect m-1 text-center"><i class="fab fa-linkedin-in"></i></a>
+							<a href="#" class="connect m-1 text-center"><i class="fab fa-github"></i></a>
+							<a href="#" class="connect m-1 text-center"><i class="fab fa-twitter"></i></a>
+						</div>
+						<hr id="hr-below-name">
+					</div>
+					<div class="animated fadeInUp fast">
+						<p>Anne Gerly Ilustre is a Full-Stack Web Developer from Manila.</p>
+						<p>She graduated from the University of the Philippines Los Baños where she obtained her Bachelor of Science in Chemical Engineering. She also took a 6-month coding bootcamp at <a href="https://tuitt.com/" target="_blank" class="p-0 links">Tuitt, Inc.</a></p>
+						<p>She's a lifelong learner who loves researching and discovering new things in technology and psychology. When she's not coding, she can be found reading a book, browsing Medium, watching cooking shows, or studying on Duolingo.</p>
+
+						<p>If you're interested in her profile, do not hesitate to contact her and download her CV. View her portfolio <a href="#portfolio" id="portfolio-link" class="links">here</a>.</p>
+						
+						<div class="mb-2"><i class="far fa-envelope"></i><a href="mailto:ag.ilustre@gmail.com?Subject=Hello" target="_top" class="p-0 m-3 links">ag.ilustre@gmail.com</a></div>
+
+						<div><i class="far fa-file-alt"></i><a href="assets/sampleCV.txt" target="_blank" class="p-0 m-3 links">curriculum vitae</a></div>
+					</div>
 				</div>
+				<div class="col-lg-2 col-md-2"></div>
 			</div>
-			<div class="col-lg-2"></div>
-		</div>
-			
-
-		<!-- my skills -->
-		<div class="row" id="skills">
-			<div class="col-lg-12 text-center animated bounce mt-3" id="skills">
-				<h1 class="pt-5 section-title text-center">SKILLS</h1>
-			</div>
-		</div>
-
-		<div class="row" class="skills-columns">
-			<div class="col-lg-6 col-md-12 col-sm-12 m-0 p-4">
-					<h3 class="m-2 text-center">FRONT-END</h3>
-					<div class="p-1">
-						<h4 class="m-2 pt-2">HTML</h4>
-						<div class="progress m-2">
-		  					<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="90"></div>
-						</div>
-						<!-- end of HTML progress -->
-					</div>
-
-					<div class="p-1">
-						<h4 class="m-2 pt-2">CSS</h4>
-						<div class="progress m-2">
-							<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80"></div>
-						</div>
-						<!-- end of CSS progress -->
-					</div>
-						<h4 class="m-2 pt-2">Bootstrap</h4>
-						<div class="progress m-2">
-							<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80"></div>
-						</div>
-						<!-- end of Bootstrap progress -->
-					<div class="p-1">
-						<h4 class="m-2 pt-2">JavaScript</h4>
-						<div class="progress m-2">
-							<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="70"></div>
-						</div>
-						<!-- end of javascript progress -->
-					</div>
-				<!-- end of front-end -->
-			</div>
-
-			<div class="back-end  col-lg-6 col-md-12 col-sm-12 m-0 p-4">
-					<h3 class="m-2 text-center">BACK-END</h3>
-					<div class="p-1">
-						<h4 class="m-2 pt-2">PHP</h4>
-						<div class="progress m-2">
-		  					<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="70"></div>
-						</div>
-						<!-- end of PHP progress -->
-					</div>
-
-					<div class="p-1">
-						<h4 class="m-2 pt-2">MySQL</h4>
-						<div class="progress m-2">
-							<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="10" aria-valuemax="70"></div>
-						</div>
-						<!-- end of MySQL progress -->
-					</div>
-
-					<div class="p-1">
-						<h4 class="m-2 pt-2">Laravel</h4>
-						<div class="progress m-2">
-							<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="50"></div>
-						</div>
-						<!-- end of laravel progress -->
-					</div>
-
-					<div class="p-1">
-						<h4 class="m-2 pt-2">Python</h4>
-						<div class="progress m-2">
-							<div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="20" aria-valuemin="1" aria-valuemax="20"></div>
-						</div>
-						<!-- end of Python progress -->
-					</div>
-			</div> <!-- end of back-end -->
-		</div>
-
-	</div> <!-- end of container -->
+		</div> 
+	</div> 
+	<!-- end of div.after -->
+</div> 
+<!-- end of div.container -->
 </body>
 </html>

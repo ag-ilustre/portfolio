@@ -14,7 +14,9 @@ body:
 
 3. Progress-bar
 	color: #4AB8EE;
-	848ca5
+	/*Summer sky*/
+	color: #848ca5
+	/*Manatee (bluish gray)*/
 
 4. Fontawesome
 //logo only
